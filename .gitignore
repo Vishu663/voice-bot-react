@@ -1,0 +1,16 @@
+# root
+node_modules/
+.env
+dist/
+build/
+.cache
+.DS_Store
+
+# frontend
+frontend/node_modules/
+frontend/build/
+
+# backend
+backend/node_modules/
+backend/build/
+backend/.env
