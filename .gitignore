@@ -7,8 +7,8 @@ build/
 .DS_Store
 
 # frontend
-frontend/node_modules/
-frontend/build/
+frontend-1/node_modules/
+frontend-1/build/
 
 # backend
 backend/node_modules/
