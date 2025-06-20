@@ -108,7 +108,7 @@ const VoiceBot = () => {
 
   // Call the backend API
   const callGeminiAPI = async (question) => {
-    const response = await fetch('http://localhost:5000/api/ask', {
+    const response = await fetch('https://voice-bot-react.onrender.com/api/ask', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

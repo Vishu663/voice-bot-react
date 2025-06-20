@@ -125,7 +125,6 @@ app.use((req, res) => {
 
 app.listen(PORT, () => {
   console.log(`🚀 Voice Bot API server running on port ${PORT}`);
-  console.log(`📍 Health check: http://localhost:${PORT}/api/health`);
 });
 
 module.exports = app;
